@@ -115,6 +115,8 @@ Place **all files in the root directory** of the repository (at the same level a
   `h.all.v7.5.1.symbols.gmt`
   `c2.cp.kegg.v2023.1.Hs.entrez.gmt`
 
+> **Note**: As of now, this repository only includes the phase notebooks and the xCell deconvolution output file. You will need to manually download and place the rest of the datasets.
+
 ---
 
 ## Directory Structure
@@ -180,9 +182,9 @@ jupyter notebook
 * `phase2_tme_analysis/`
 * `phase3_survival_analysis/`
 
-4. Open and execute the corresponding notebook (e.g., `phase1_code.ipynb`) cell-by-cell.
+4. Open and execute the corresponding notebook (e.g., `phase1_code.ipynb`) step-by-step.
 
-All outputs, plots, and tables will be automatically saved in the relevant `results/`, `graphs/`, or `plots/` folders.
+> **Note**: All required plots and visualizations will be automatically generated when you run the notebooks across Phases 1, 2, and 3.
 
 ---
 
@@ -212,5 +214,3 @@ For questions or collaboration inquiries, please contact:
 **LinkedIn**: [https://www.linkedin.com/in/shravan-s-7b53a494/](https://www.linkedin.com/in/shravan-s-7b53a494/)
 
 ---
-
-
